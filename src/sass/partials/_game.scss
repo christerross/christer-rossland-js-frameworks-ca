@@ -1,0 +1,28 @@
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 18px #7F8183;
+    transition: all 0.5s;
+
+    &::hover {
+        box-shadow: 0 0 0 #4F5052;
+    }
+}
+
+.card-title.h5 {
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search {
+    margin: 2em 0;
+}
+
+.clear-search {
+    margin-bottom: 30px;
+}
+
+.clear-search__button {
+    margin-left: 10px;
+}
